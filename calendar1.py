@@ -49,6 +49,7 @@ def get_datetime():
     now = datetime.now()
     return now.strftime("%d/%m/%Y"), now.strftime("%H:%M:%S")
 
+
 class UpdateTime(Thread):
     def run(self):
         while True:
